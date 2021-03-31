@@ -9,7 +9,7 @@ class STONE {
         this.body=Matter.Bodies.circle(x, y, 25, options)
         this.x=x;
 		this.y=y;
-		//this.r=r
+		this.r=25
         Matter.World.add(world, this.body);
         this.I = loadImage("pictures/stone.png");
     }
