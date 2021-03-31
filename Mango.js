@@ -5,6 +5,7 @@ class MANGO {
         this.body = Matter.Bodies.circle(x, y, 30, prop);
         Matter.World.add(world, this.body);
         this.I = loadImage("pictures/mango.png");
+        this.r=30;
     }
 
     display() {
